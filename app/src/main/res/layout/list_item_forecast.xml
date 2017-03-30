@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/touch_selector"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="18dp"
+        android:id="@+id/list_item_icon"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_snow"
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingTop="8dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/list_item_date_textview"
+            android:text="Tomorrow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/list_item_forecast_textview"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:text="81"
+            android:id="@+id/list_item_high_textview"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:gravity="center"
+            android:text="21"
+            android:id="@+id/list_item_low_textview"/>
+    </LinearLayout>
+
+</LinearLayout>

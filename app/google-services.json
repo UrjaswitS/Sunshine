@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "886797583264",
+    "firebase_url": "https://sunshineapp-161816.firebaseio.com",
+    "project_id": "sunshineapp-161816",
+    "storage_bucket": "sunshineapp-161816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886797583264:android:035e0b08c5af1cdc",
+        "android_client_info": {
+          "package_name": "com.example.urjaswitk.sunshineapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886797583264-4b93t0315oqr2crs0jhom8rb6s6ho8n5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urjaswitk.sunshineapp.app",
+            "certificate_hash": "125c0ee65992f4c3ac3d82149faacb06ea2a7be9"
+          }
+        },
+        {
+          "client_id": "886797583264-mek1386rg6cspdn04j606boni1b3l8aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAutZdJA-doXDUL2swaFvGbzEFLK3_9LsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886797583264-mek1386rg6cspdn04j606boni1b3l8aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
